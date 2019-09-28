@@ -1,7 +1,7 @@
--- -
+---
 title: "Intro"
 date: "2019-09-28"
--- -
+---
 
 ### Intro to my blog
 
