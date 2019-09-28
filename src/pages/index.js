@@ -11,6 +11,14 @@ const IndexPage = ({ data }) => (
     <div>
       <h1>Victoria's posts</h1>
       <h4>{data.allMarkdownRemark.totalCount}</h4>
+      {data.allMarkdownRemark.edges.map(({ node }) => (
+        <div key={node.id}>
+          <span>
+            {node.frontmatter.title} - {node.frontmatter.date}
+          </span>
+          <p>{node.excerpt}</p>
+        </div>
+      ))}
     </div>
     <h1>Hi people</h1>
     <p>Welcome to my blog where I write about things that I am learning.</p>
@@ -33,11 +41,11 @@ export const query = graphql`
       edges {
         node {
           id
-          html
-          excerpt
           frontmatter {
             title
+            date
           }
+          excerpt
         }
       }
     }
