@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-
+import styled from "styled-components"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
@@ -36,7 +36,7 @@ export default IndexPage
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       totalCount
       edges {
         node {
@@ -44,6 +44,9 @@ export const query = graphql`
           frontmatter {
             title
             date
+          }
+          fields {
+            slug
           }
           excerpt
         }
