@@ -2,7 +2,6 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import styled from "styled-components"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const BlogLink = styled(Link)`
@@ -32,9 +31,7 @@ const IndexPage = ({ data }) => (
     <h1>Hi people</h1>
     <p>Welcome to my blog where I write about things that I am learning.</p>
     <p>These are my notebooks, basically.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
+    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}></div>
     <Link to="/page-2/">Go to page 2</Link>
     <br />
     <Link to="/jingle-bells/">Go to Jingle Bells page</Link>
