@@ -27,14 +27,6 @@ const IndexPage = ({ data }) => (
           <p>{node.excerpt}</p>
         </div>
       ))}
-    </div>
-    <h1>Hi people</h1>
-    <p>Welcome to my blog where I write about things that I am learning.</p>
-    <p>These are my notebooks, basically.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}></div>
-    <Link to="/page-2/">Go to page 2</Link>
-    <br />
-    <Link to="/jingle-bells/">Go to Jingle Bells page</Link>
   </Layout>
 )
 

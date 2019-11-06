@@ -1,4 +1,3 @@
-
 ---
 title: "Adding Bootstrap to My Sinatra App"
 date: "2019-11-05"
