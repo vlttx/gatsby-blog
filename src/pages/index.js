@@ -27,6 +27,7 @@ const IndexPage = ({ data }) => (
           <p>{node.excerpt}</p>
         </div>
       ))}
+    </div>
   </Layout>
 )
 
