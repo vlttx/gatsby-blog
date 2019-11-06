@@ -3,7 +3,7 @@ title: "Adding Bootstrap to My Sinatra App"
 date: "2019-11-05"
 ---
 
-# Adding Bootstrap to My Sinatra App
+### Adding Bootstrap to My Sinatra App
 
 For my Sinatra Project I created **a very bare-bones** Sinatra App that helps a user keep track of their clients and their info. Once my database was set up, relationships established, routes properly added, as well as login and other requirements were met, I decided to play around with Bootstrap for a bit and see if I could figure out how it works. 
 
