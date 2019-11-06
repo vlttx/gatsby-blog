@@ -9,13 +9,13 @@ const BlogLink = styled(Link)`
 `
 const BlogTitle = styled.h3`
   margin-botton: 20px;
-  color: red;
+  color: purple;
 `
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
     <div>
-      <h1>Victoria's posts</h1>
+      <h1>Victoria's notes</h1>
       <h4>{data.allMarkdownRemark.totalCount} posts</h4>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <div key={node.id}>
