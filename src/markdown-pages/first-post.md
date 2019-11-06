@@ -1,6 +1,6 @@
 ---
-title: "First post"
-date: "2019-09-28"
+title: "Adding Bootstrap to My Sinatra App"
+date: "2019-11-05"
 ---
 
 ### First post
