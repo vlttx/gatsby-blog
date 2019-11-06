@@ -1,15 +1,6 @@
 ---
-title: "Intro"
-date: "2019-09-28"
+title: "Markdown"
+date: "2019-11-05"
 ---
 
 ### Intro to my blog
-
-This is just a test blog page.
-This is just a test blog page.
-This is just a test blog page.
-This is just a test blog page.
-This is just a test blog page.
-This is just a test blog page.
-This is just a test blog page.
-This is just a test blog page.
